@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="iletisim.css">
+	
+
+    <title>İletisim</title>
+   
+   
+   
+   
+   <script type="text/javascript">
+   function bilgiAl(){
+   var degerAd=document.forms["bilgi"]["ad"].value;
+   
+   var degerSoyad=document.forms["bilgi"]["soyad"].value;
+   
+   var degerkimlik=document.forms["bilgi"]["tc"].value;
+   
+   
+   var cinsiyet;
+   if(document.bilgi.cinsiyet["0"].checked)
+   cinsiyet=document.bilgi.cinsiyet["0"].value;
+   else if(document.bilgi.cinsiyet["1"].checked)
+   cinsiyet=document.bilgi.cinsiyet["1"].value;
+   
+   var durum;
+   if(document.bilgi.hal["0"].checked)
+   durum=document.bilgi.hal["0"].value;
+   else if(document.bilgi.hal["1"].checked)
+   durum=document.bilgi.hal["1"].value;
+   
+   
+   var begendimi;
+   if(document.bilgi.begen["0"].checked)
+   begendimi=document.bilgi.begen["0"].value;
+   else if(document.bilgi.begen["1"].checked)
+   durum=document.bilgi.begen["1"].value;
+  
+  var secilen;
+   if(document.bilgi.begensayfa["0"].selected)
+   secilen=document.bilgi.begensayfa["0"].value;
+   else if(document.bilgi.begensayfa["1"].selected)
+   secilen=document.bilgi.begensayfa["1"].value;
+   else if(document.bilgi.begensayfa["2"].selected)
+   secilen=document.bilgi.begensayfa["2"].value;
+   else if(document.bilgi.begensayfa["3"].selected)
+   secilen=document.bilgi.begensayfa["3"].value;
+   else if(document.bilgi.begensayfa["4"].selected)
+   secilen=document.bilgi.begensayfa["4"].value;
+   
+   
+   
+   
+  
+    return false;
+  } 
+  function sifirla(){
+   document.forms["bilgi"].reset();
+  }
+  
+   
+  </script>
+  
+  
+  </head>
+  <body>
+  <div class="container-fluid" >
+  <header>
+  <form action="gönder.php" method="post" name="bilgi" onsubmit="return bilgiAl()" >
+  <table>
+   <tr>
+	   <td class="td4">AD</td>
+	   <td class="td2">:</td>
+	   <td class="td3">
+	   <input type="text" name="ad">
+	   </td>
+	   </tr>
+	     <tr>
+	     <td class="td4">SOYAD</td>
+	     <td class="td2">:</td>
+	     <td class="td3">
+		 <input type="text" name="soyad"/>
+		 </td>
+		 </tr>
+		   <tr>
+	        <td class="td4">T.C. NUMURASI</td>
+	         <td class="td2">:</td>
+	          <td class="td3">
+	          <input type="text" name="tc">
+	          </td>
+	          </tr>
+		   <tr>
+	       <td class="td4">CİNSİYET</td>
+	       <td class="td2">:</td>
+	       <td class="td3">
+		   Erkek<input type="radio" name="cinsiyet" value="Erkek"/>
+		   BAYAN<input type="radio" name="cinsiyet" value="Bayan"/>
+		   </td>
+		   </tr>
+		     <tr>
+  			   <td class="td4">MEDENİ DURUM</td>
+	           <td class="td2">:</td>
+               <td class="td3">
+			   EVLİ<input type="radio" name="hal" value="Evliyim"/>
+		       BEKAR<input type="radio" name="hal" value="Bekarım"/>
+			  </td>
+			   </tr>
+			     <tr>
+  			     <td class="td4">SİTEYİ BEĞENDİNİZ Mİ?</td>
+	             <td class="td2">:</td>
+	             <td class="td3">
+				 EVET<input type="radio" name="begen" value="Beğendim"/>
+		         HAYIR<input type="radio" name="begen" value="Beğenmedim"/>
+				 </td>
+			     </tr>
+				    <tr>
+  			        <td class="td4">SİTENİN HANGİ SAYFASI HOŞUNUZA GİTTİ?</td>
+	                <td class="td2">:</td>
+	                <td class="td3">
+					<select name="begensayfa" id="blok">
+					<option value="Cv Sayfası">CV</option>
+					<option value="Şehrim Sayfası">ŞEHRİM</option>
+					<option value="Mirasımız Sayfası">MİRASIMIZ</option>
+					<option value="Anasayfa">ANASAYFA</option>
+					<option value="İletisim Sayfası">İLETİŞİM</option>
+					</td>
+			        </tr>
+					     
+
+
+
+
+
+					 <button onclick="bilgiAl()">GÖNDER</button>
+					  <button onclick="sifirla()">SIFIRLA</button>
+                       
+  
+  </form>
+  </table>
+  </header>
+  </div>
+  <textarea cols="50" rows="18" name="mesaj"> MESAJINIZ</textarea>
+  <button onclick="bilgiAl()">GÖNDER</button>
+  <button onclick="sifirla()">SIFIRLA</button>
+  </body>
+  </html>

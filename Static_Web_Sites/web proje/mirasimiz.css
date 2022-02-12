@@ -1,0 +1,33 @@
+.tdler{
+	width:500px;
+	height:390px;
+	border:0px solid red;
+	background:#FAF0E6;
+}
+h3{
+	text-align:center;
+	color:#000000;
+}
+h1{
+	text-align:center;
+	color:#000000;
+	background:#E6E6FA;
+	margin:0 250px 0 250px;
+}
+.basari{
+	width:400px;
+	height:50px;
+}
+h2{
+	text-align:center;
+	color:#000000;
+	background:#F5FFFA;
+	margin:0px;
+}
+.tdler p{
+	font-size:25px;
+}
+.tdler ul{
+	margin:0 20px 0 120px;
+	
+}

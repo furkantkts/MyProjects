@@ -1,0 +1,71 @@
+.table{
+	width:1500px;
+	height:730px;
+    border:solid red 2px;	
+	background:#FFE4C4;
+}
+.ustkolon{
+	width:1500px;
+	height:365px;
+    border:solid green 1px;
+	background:#FFF5EE;
+}
+.altkolon{
+	width:1500px;
+	height:365px;
+    border:solid green 1px;
+	background:#FFF5EE;
+}
+.tdler{
+	width:750px;
+	height:365px;
+    border:solid green 1px;
+	background:#FFF5EE;
+}
+.tdler p{
+	text-align:left;
+}
+#slider{
+	position:relative;
+	margin:0 auto;
+	width:750px;
+	height:345px;
+	font:12px tahoma;
+	overflow:hidden;
+}
+#kontrol{
+	position:absolute;
+	right:0;
+	bottom:10px;
+}
+#kontrol a{
+	color:red;
+	background:rgba(0,0,0,0.5);
+	padding:10px;
+	text-decoration:none;
+}
+h3{
+	text-align:center;
+	color:red;
+	background:#F5FFFA;
+	margin:0px 250px;
+}
+h2{
+	text-align:center;
+	color:red;
+	background:#F5FFFA;
+	margin:0px 250px;
+}
+.yemekdiv{
+	width:750px;
+	height:345px;
+	margin:3px;	
+}
+h1{
+	text-align:center;
+	color:red;
+	background:#F5FFFA;
+	margin:0px 0px;
+	
+	
+}
