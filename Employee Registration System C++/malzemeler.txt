@@ -1,0 +1,4 @@
+1 cimento 1 15 marka1
+2 tugla 1000 250 marka2
+3 civi 10 150 marka3
+3 un 3 5 halkun
