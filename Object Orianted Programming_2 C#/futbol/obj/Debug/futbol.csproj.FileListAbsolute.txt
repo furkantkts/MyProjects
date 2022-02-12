@@ -1,0 +1,6 @@
+c:\users\furkan tektaş\documents\visual studio 2015\Projects\futbol\futbol\bin\Debug\futbol.exe.config
+c:\users\furkan tektaş\documents\visual studio 2015\Projects\futbol\futbol\bin\Debug\futbol.exe
+c:\users\furkan tektaş\documents\visual studio 2015\Projects\futbol\futbol\bin\Debug\futbol.pdb
+c:\users\furkan tektaş\documents\visual studio 2015\Projects\futbol\futbol\obj\Debug\futbol.csprojResolveAssemblyReference.cache
+c:\users\furkan tektaş\documents\visual studio 2015\Projects\futbol\futbol\obj\Debug\futbol.exe
+c:\users\furkan tektaş\documents\visual studio 2015\Projects\futbol\futbol\obj\Debug\futbol.pdb
