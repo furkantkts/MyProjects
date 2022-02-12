@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\bin\Debug\NDPHESAP.exe.config
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\bin\Debug\NDPHESAP.exe
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\bin\Debug\NDPHESAP.pdb
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\obj\Debug\NDPHESAP.Form1.resources
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\obj\Debug\NDPHESAP.Properties.Resources.resources
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\obj\Debug\NDPHESAP.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\obj\Debug\NDPHESAP.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\obj\Debug\NDPHESAP.exe
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\obj\Debug\NDPHESAP.pdb
+C:\Users\lenovo\Desktop\NDPHESAP\NDPHESAP\obj\Debug\NDPHESAP.csprojAssemblyReference.cache
